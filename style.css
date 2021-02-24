@@ -55,16 +55,18 @@ body {
 .content{
     background-color: #FFFFFF;
     text-align: left;
-    color: #FFB277;
+    color: #0BC182;
     width: 55%;
     margin: 10px;
-    padding: 5px;
+    padding: 10px;
     font-family: sans-serif;
     border-radius: 6px;
 }
 
 .content h1{
+    color: #FFB277;
     padding-left: 30px;
+    line-height: 50%;
     font-style: italic;
 }
 
@@ -87,10 +89,13 @@ body {
     border-top-right-radius: 6px;
 }
 
+.footer img{
+    width: 50px;
+}
+
 .footer p{
-    text-align: left;
-    font-size: smaller;
-    padding: 10px;
+    text-align: center;
+    padding-top: 5px;
     margin: 1px;
     background-color: #A6F2FF;
     border-radius: 6px;
