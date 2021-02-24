@@ -1,6 +1,6 @@
 body {
     background-color:#A6F2FF;
-    background-image: url("mangoefruitbgsmall.png");
+    background-image: url("\mangoefruitbgsmall.png");
     background-repeat: repeat;
 }
 
@@ -19,7 +19,7 @@ body {
 .header table{
     width: 100%;
     padding: 8%;
-    background-image: url("socialsbanner.png");
+    background-image: url("\socialsbanner.png");
     background-size: 100%;
     background-position:center;
     background-repeat: no-repeat;
