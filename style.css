@@ -8,7 +8,7 @@ body {
     background-color: #FFFFFF;
     width: 60%;
     margin: auto;
-    margin-top: 25px;
+    margin-top: 20px;
     padding: 3px;
     color: #FFFFFF;
     font-family: sans-serif;
@@ -18,7 +18,11 @@ body {
 
 .header table{
     width: 100%;
-    padding: 0px;
+    padding: 8%;
+    background-image: url("socialsbanner.png");
+    background-size: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
     background-color: #A6F2FF;
     text-align: center;
     border-radius: 10px;
@@ -35,19 +39,31 @@ body {
     border-radius: 10px;
 }
 
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
 .menu th{
     width: 5%;
     margin: 10px;
     padding: 10px;
     background-color: #A6F2FF;
+    font-style: italic;
     text-align: center;
     border-radius: 6px;
+}
+
+.menu th:hover{
+    background-color: #FFB277;
+    font-size: larger;
+    transition: 200ms;
 }
 
 .content{
     background-color: #FFFFFF;
     text-align: left;
-    color: #028164;
+    color: #FFB277;
     width: 55%;
     margin: 10px;
     padding: 5px;
